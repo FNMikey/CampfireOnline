@@ -1,0 +1,4 @@
+name: CampfireOnline
+version: '${project.version}'
+main: firstplugin.firstplugin.CampfireOnline
+api-version: '1.20'
