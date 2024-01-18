@@ -2,3 +2,14 @@ name: CampfireOnline
 version: '${project.version}'
 main: firstplugin.firstplugin.CampfireOnline
 api-version: '1.20'
+commands:
+    fly:
+      description: Toggles flying for the command sender.
+      usage: /fly
+      aliases: [f, flying, toggleFly]
+      permission: fly
+      permission-message: You do not have permission.
+    menu:
+      description: Opens a custom menu.
+      usage: /menu
+
